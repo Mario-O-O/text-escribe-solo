@@ -1,0 +1,25 @@
+*{
+  font-family: Arial;
+  color: black;
+  font-size: 48px;
+  line-height: 1.4em;
+}
+
+.word { 
+    background-color: #55f291;
+    height: 1.4em;
+    padding: 0 14px 0 7px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .word:before {
+    content: '';
+    background-color: black;
+    width: 1px;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 7px;
+  }
